@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 60rem;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie__img {
+  width: 100%;
+}
+
+.movie__title {
+  font-size: 1rem;
+  color: navy;
+  margin-bottom: 0.4rem;
+}
+
+.movie__title a {
+  color: navy;
+}
+
+.movie__year {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.movie__genre {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
